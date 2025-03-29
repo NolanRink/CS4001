@@ -13,7 +13,7 @@ class QuizApp:
         master.geometry("600x500")
 
         # Load questions from the JSON file
-        with open("questions.json", "r") as f:
+        with open("/Users/nolanrink/Desktop/CS4001/MiniProject1/questions.JSON", "r") as f:
             self.questions_data = json.load(f)
 
         # Define difficulty levels and initialize counters
