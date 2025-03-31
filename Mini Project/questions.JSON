@@ -1,0 +1,174 @@
+{
+    "easy": [
+      {
+        "question": "Which function is used to read a CSV file in pandas?",
+        "options": {
+          "A": "pd.read_csv",
+          "B": "pd.read_excel",
+          "C": "pd.read_html",
+          "D": "pd.read_table"
+        },
+        "answer": "A",
+        "explanation": "pd.read_csv() is the most common function to read CSV files into a pandas DataFrame."
+      },
+      {
+        "question": "What is the output type of pd.Series?",
+        "options": {
+          "A": "DataFrame",
+          "B": "Series",
+          "C": "List",
+          "D": "Dictionary"
+        },
+        "answer": "B",
+        "explanation": "pd.Series creates a one-dimensional array with axis labels and is of type Series."
+      },
+      {
+        "question": "Which of the following is a valid way to create a DataFrame from a dictionary?",
+        "options": {
+          "A": "pd.DataFrame(dict)",
+          "B": "pd.Series(dict)",
+          "C": "pd.DataFrame(list)",
+          "D": "pd.DataFrame(np.array(dict))"
+        },
+        "answer": "A",
+        "explanation": "pd.DataFrame() accepts a dictionary where keys become column names and values become the data."
+      },
+      {
+        "question": "How can you select a column named 'Age' from a DataFrame called df?",
+        "options": {
+          "A": "df['Age']",
+          "B": "df.get('Age')",
+          "C": "df.Age",
+          "D": "All of the above"
+        },
+        "answer": "D",
+        "explanation": "You can select a column using df['Age'], df.get('Age'), or df.Age."
+      },
+      {
+        "question": "Which method returns the first 5 rows of a DataFrame?",
+        "options": {
+          "A": "head()",
+          "B": "tail()",
+          "C": "first()",
+          "D": "sample()"
+        },
+        "answer": "A",
+        "explanation": "The head() method returns the first 5 rows of a DataFrame by default."
+      }
+    ],
+    "medium": [
+      {
+        "question": "Which method is used to group data in a DataFrame?",
+        "options": {
+          "A": "group_by()",
+          "B": "group()",
+          "C": "groupby()",
+          "D": "aggregate()"
+        },
+        "answer": "C",
+        "explanation": "The groupby() method is used to group data in a pandas DataFrame."
+      },
+      {
+        "question": "After grouping a DataFrame, which function can you use to calculate the mean of each group?",
+        "options": {
+          "A": "sum()",
+          "B": "mean()",
+          "C": "agg()",
+          "D": "describe()"
+        },
+        "answer": "B",
+        "explanation": "The mean() function calculates the average of each group after grouping."
+      },
+      {
+        "question": "How can you filter rows in a DataFrame where the column 'Age' is greater than 30?",
+        "options": {
+          "A": "df[df['Age'] > 30]",
+          "B": "df.filter(df['Age'] > 30)",
+          "C": "df.query('Age > 30')",
+          "D": "Both A and C"
+        },
+        "answer": "D",
+        "explanation": "Both df[df['Age'] > 30] and df.query('Age > 30') are valid ways to filter rows."
+      },
+      {
+        "question": "What does the .agg() function do in a groupby operation?",
+        "options": {
+          "A": "Aggregates data",
+          "B": "Groups data",
+          "C": "Filters data",
+          "D": "Merges data"
+        },
+        "answer": "A",
+        "explanation": "The .agg() function applies one or more aggregation functions to the grouped data."
+      },
+      {
+        "question": "Which parameter in the groupby() function can be used to specify whether to include or exclude NA values?",
+        "options": {
+          "A": "dropna",
+          "B": "na_option",
+          "C": "exclude_na",
+          "D": "fillna"
+        },
+        "answer": "A",
+        "explanation": "The dropna parameter in groupby() determines if NA values are dropped from the groups."
+      }
+    ],
+    "hard": [
+      {
+        "question": "Which function is used to merge two DataFrames in pandas?",
+        "options": {
+          "A": "pd.concat",
+          "B": "pd.merge",
+          "C": "pd.join",
+          "D": "pd.combine"
+        },
+        "answer": "B",
+        "explanation": "pd.merge() is the standard function to merge DataFrames based on one or more keys."
+      },
+      {
+        "question": "What is the purpose of the pivot() function in pandas?",
+        "options": {
+          "A": "To reshape data",
+          "B": "To merge DataFrames",
+          "C": "To plot data",
+          "D": "To filter data"
+        },
+        "answer": "A",
+        "explanation": "The pivot() function is used to reshape data based on column values."
+      },
+      {
+        "question": "When performing a left merge, which DataFrame will include all its rows regardless of matching keys?",
+        "options": {
+          "A": "The left DataFrame",
+          "B": "The right DataFrame",
+          "C": "Both DataFrames",
+          "D": "Neither DataFrame"
+        },
+        "answer": "A",
+        "explanation": "In a left merge, all rows from the left DataFrame are included even if there is no matching key in the right DataFrame."
+      },
+      {
+        "question": "Which function would you use to create a simple line plot from a DataFrame?",
+        "options": {
+          "A": "df.plot.line()",
+          "B": "df.plot()",
+          "C": "plt.line()",
+          "D": "Both A and B"
+        },
+        "answer": "D",
+        "explanation": "Both df.plot() and df.plot.line() can be used to create a line plot with pandas' built-in plotting capabilities."
+      },
+      {
+        "question": "What does the pivot_table() function allow you to do that pivot() does not?",
+        "options": {
+          "A": "Handle duplicate values with aggregation",
+          "B": "Merge multiple DataFrames",
+          "C": "Plot data",
+          "D": "Filter data"
+        },
+        "answer": "A",
+        "explanation": "pivot_table() allows you to aggregate duplicate entries using an aggregation function, whereas pivot() does not handle duplicates."
+      }
+    ]
+  }
+  

@@ -1,0 +1,2 @@
+Data description: http://crcns.org/data-sets/hc/hc-3/about-hc-3
+Free download site: https://buzsakilab.nyumc.org/datasets/MizusekiK/hc-3/
