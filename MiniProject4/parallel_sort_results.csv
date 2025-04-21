@@ -8,3 +8,12 @@ array_size,time,location
 10000000,0.355303,M1 Macbook Pro 6 Processes
 100000000,3.566932,M1 Macbook Pro 6 Processes
 1000000000,116.726332,M1 Macbook Pro 6 Processes
+10000000,0.202837,Fabric 6 Processes
+100000000,2.257153,Fabric 6 Processes
+1000000000,24.795968,Fabric 6 Processes
+10000000,0.116786,Fabric 12 Processes
+100000000,1.116179,Fabric 12 Processes
+1000000000,12.175347,Fabric 12 Processes
+10000000,0.081819,Fabric 18 Processes
+100000000,0.843551,Fabric 18 Processes
+1000000000,8.500471,Fabric 18 Processes
